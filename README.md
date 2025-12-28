@@ -9,7 +9,7 @@ Este repositório contém a entrega oficial da disciplina de **Interface Gráfic
 | :---: | :--- | :--- | :---: |
 | <img src="https://github.com/robertozoy.png" width="50"> | **Roberto Santos** | Portfólio Pessoal | @robertozoy(https://github.com/robertozoy) |
 | <img src="https://github.com/nascarla.png" width="50"> | **Carla Camily** | Formulário de Pesquisa | @nascarla(https://github.com/nascarla) |
-| <img src="https://github.com/.png" width="50"> | **Everton Barbosa** | Página Inicial de Produto | @(https://github.com/usuario3) |
+| <img src="https://github.com/evertoonnnn.png" width="50"> | **Everton Barbosa** | Página Inicial de Produto | @(https://github.com/evertoonnnn) |
 
 ---
 
