@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pesquisa de Satisfação</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <form method="post" action="https://formspree.io/f/meejyrkb">
+      <h1>Formulario de Avaliação de App</h1>
+      <p>Por favor, preencha as informações abaixo.</p>
+
+      <label class="pergunta">Qual a sua faixa etária?</label>
+      <select id="idade" name="idade">
+        <option value="" disabled selected>Selecione...</option>
+        <option value="menos-18">Menor de 18 anos</option>
+        <option value="18-30">18 a 30 anos</option>
+        <option value="31-50">31 a 50 anos</option>
+        <option value="mais-50">Mais de 50 anos</option>
+      </select>
+
+      <fieldset>
+        <label class="pergunta">Como você conheceu nossa empresa?</label>
+        <div class="lista">
+          <label>
+            <input type="checkbox" name="origem" value="instagram" /> Instagram
+          </label>
+
+          <label>
+            <input type="checkbox" name="origem" value="google" /> Google
+          </label>
+
+          <label>
+            <input type="checkbox" name="origem" value="youtube" /> YouTube
+          </label>
+
+          <label>
+            <input type="checkbox" name="origem" value="indicacao" /> Indicação
+            de um Amigo
+          </label>
+        </div>
+
+        <label class="pergunta">Outro:</label
+        ><input
+          id="outro"
+          name="outro"
+          type="text"
+          placeholder="Digite aqui..."
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend class="pergunta">Como você avalia nosso serviço?</legend>
+        <div class="lista">
+          <label for="otimo"
+            ><input
+              type="radio"
+              name="avaliacao_servico"
+              value="otimo"
+              checked
+              required
+            />
+            Otimo</label
+          >
+          <label for="bom"
+            ><input type="radio" name="avaliacao_servico" value="bom" />
+            Bom</label
+          >
+          <label for="medio"
+            ><input type="radio" name="avaliacao_servico" value="medio" />
+            Médio</label
+          >
+          <label for="ruim"
+            ><input type="radio" name="avaliacao_servico" value="ruim" />
+            Ruim</label
+          >
+          <label for="pessimo"
+            ><input
+              type="radio"
+              name="avaliacao_servico"
+              value="pessimo"
+            />Péssimo
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label class="pergunta" for="referrer">
+          Qual a probabilidade de recomendar a nossa aplicação a um amigo ou
+          colega?</label
+        >
+        <select id="referrer" name="referrer">
+          <option value="">(Selecione uma opção)</option>
+          <option value="1">Alta probabilidade</option>
+          <option value="2">Baixa probabilidade</option>
+          <option value="3">Talvez</option>
+          <option value="4">Improvavel</option>
+        </select>
+
+        <label class="pergunta" for="comentario"
+          >Tem algum comentário ou sugestão de melhoria?</label
+        >
+        <textarea
+          id="bio"
+          name="bio"
+          rows="3"
+          cols="30"
+          placeholder="Digite aqui sua mensagem..."
+        ></textarea>
+
+        <button type="submit">Enviar Respostas</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
