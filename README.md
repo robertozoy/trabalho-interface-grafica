@@ -15,11 +15,11 @@ Este repositório contém a entrega oficial da disciplina de **Interface Gráfic
 
 ## 📂 Estrutura do Repositório
 
-O projeto foi dividido em três módulos independentes, todos integrados através do Portfólio:
+O projeto foi dividido em três módulos independentes.
 
-* **[Página de Portfólio](./portfolio-pessoal/):**
-* **[Formulário de Pesquisa](./formulario-pesquisa/):** 
-* **[Página de Produto](./pagina-produto/):**
+* **[Página de Portfólio](./portfolio-pessoal/).**
+* **[Formulário de Pesquisa](./formulario-pesquisa/).** 
+* **[Página de Produto](./pagina-produto/).**
 
 ---
 
